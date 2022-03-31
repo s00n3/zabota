@@ -17,7 +17,6 @@
 .u-section-1 .u-group-2 {
   width: 545px;
   min-height: 557px;
-  height: auto;
   margin: 67px auto 0 15px;
 }
 
@@ -29,6 +28,7 @@
   letter-spacing: 1px;
   font-size: 3.4375rem;
   font-weight: 700;
+  font-family: Montserrat, sans-serif;
   margin: 0;
 }
 
@@ -48,6 +48,10 @@
   padding: 10px 43px 10px 41px;
 }
 
+.u-section-1 .u-btn-2 {
+  background-image: none;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
     --animation-custom_in-translate_x: -200px;
@@ -65,11 +69,6 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    height: auto;
-  }
-
-  .u-section-1 .u-text-1 {
-    font-family: Montserrat, sans-serif;
   }
 }
 
@@ -111,21 +110,39 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1131px;
+    min-height: 683px;
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: -11px;
+    margin-top: 9px;
+    margin-bottom: 0;
+    min-height: 674px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
 
   .u-section-1 .u-group-2 {
     width: 270px;
-    min-height: 513px;
-    margin-left: 21px;
+    min-height: 546px;
+    margin-top: 125px;
+    margin-bottom: -23px;
+    margin-left: 2px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-btn-2 {
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    margin: -46px auto 0 0;
+    padding: 10px 43px 10px 41px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 587px;
@@ -167,6 +184,8 @@
 .u-section-2 .u-text-2 {
   font-size: 3.75rem;
   text-transform: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
   margin: 34px 10px 0 0;
 }
 
@@ -194,8 +213,6 @@
   }
 
   .u-section-2 .u-text-2 {
-    font-family: Montserrat, sans-serif;
-    font-weight: normal;
     font-size: 3rem;
     margin-right: 0;
   }
